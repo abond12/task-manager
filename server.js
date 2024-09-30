@@ -1,5 +1,5 @@
 const express = require('express');
-const bodyParser = require('body-parser')
+const bodyParser = require('body-parser');
 
 const app = express();
 const port = 3000;
@@ -8,5 +8,5 @@ const port = 3000;
 app.use(bodyParser.json());
 
 app.listen(port, () => {
-    console.log(`Server listening on http://localchost:${port}`)
-})
+    console.log(`Server listening on http://localchost:${port}`);
+});
