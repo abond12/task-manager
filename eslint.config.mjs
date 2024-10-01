@@ -24,5 +24,6 @@ export default [...compat.extends("eslint:recommended", "prettier"), {
 
     rules: {
         "no-console": "off",
+        "no-unused-vars": "warn"
     },
 }];
