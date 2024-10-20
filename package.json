@@ -12,7 +12,7 @@
         "lint:fix": "eslint --fix ."
     },
     "keywords": [],
-    "author": "",
+    "author": "Bondarenko Olena",
     "license": "ISC",
     "description": "",
     "dependencies": {
