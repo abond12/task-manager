@@ -16,5 +16,5 @@ app.use('/api', router);
 app.use('/api', taskRouter);
 
 app.listen(port, () => {
-    console.log(`Server listening on http://localchost:${port}`);
+    console.log(`Server listening on http://localhost:${port}`);
 });
